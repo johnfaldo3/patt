@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/"
+  },
+  "files": [
+    "src/index.ts",
+  ],
+  "plugins": ["@typescript-eslint"]
+}
