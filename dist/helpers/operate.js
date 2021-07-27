@@ -5,9 +5,9 @@ var operate = function (now, operations) {
     var value = now;
     Object.values(operations).forEach(function (operation) {
         var partValue = Number(enums_1.PartToMilliseconds[operation.match(enums_1.regexes.part)[0]]);
-        var isAddition = enums_1.regexes.addition.test(operation);
         var quantity = Number(operation.match(enums_1.regexes.number)[0]);
-        var adjustment = (quantity * partValue);
+        var adjustment = quantity * partValue;
+        var isAddition = enums_1.regexes.addition.test(operation);
         if (isAddition) {
             value += adjustment;
         }

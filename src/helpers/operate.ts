@@ -1,7 +1,8 @@
 import { PartToMilliseconds, regexes } from "../enums";
+import { ms } from "../types";
 
-const operate = (now: number, operations: string[]) => {
-  let value: number = now;
+const operate = (now: number, operations: string[]): ms => {
+  let value: ms = now;
 
   Object.values(operations).forEach((operation) => {
     const partValue = Number(
@@ -10,9 +11,9 @@ const operate = (now: number, operations: string[]) => {
       ],
     );
 
+    const quantity: ms = Number(operation.match(regexes.number)[0]);
+    const adjustment = quantity * partValue;
     const isAddition = regexes.addition.test(operation);
-    const quantity: number = Number(operation.match(regexes.number)[0]);
-    const adjustment = (quantity * partValue);
 
     if (isAddition) {
       value += adjustment;
