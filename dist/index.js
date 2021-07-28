@@ -31,10 +31,8 @@ var parse = function (shorthand) {
     if (operations) {
         result = operate(now, operations);
     }
-    console.log({ result: result, rounded: roundDate_1["default"](new Date(result), rounding) });
     return rounding
         ? roundDate_1["default"](new Date(result), rounding).toISOString()
         : new Date(result).toISOString();
 };
-// console.log(JSON.stringify(parse('now+1h-3w/d')));
 exports["default"] = parse;

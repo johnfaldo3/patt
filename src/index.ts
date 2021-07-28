@@ -43,13 +43,9 @@ const parse = (shorthand: string) => {
     result = operate(now, operations);
   }
 
-  console.log({ result, rounded: roundDate(new Date(result), rounding) });
-
   return rounding
     ? roundDate(new Date(result), rounding).toISOString()
     : new Date(result).toISOString();
 };
-
-// console.log(JSON.stringify(parse('now+1h-3w/d')));
 
 export default parse;
