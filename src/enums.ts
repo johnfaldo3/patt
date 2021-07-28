@@ -1,11 +1,11 @@
 export enum DatePart {
-  's' = 'SECOND',
-  'm' = 'MINUTE',
-  'h' = 'HOUR',
-  'd' = 'DAY',
-  'w' = 'WEEK',
-  'M' = 'MONTH',
-  'y' = 'YEAR',
+  's' = 's',
+  'm' = 'm',
+  'h' = 'h',
+  'd' = 'd',
+  'w' = 'w',
+  'M' = 'M',
+  'y' = 'y',
 };
 
 export enum PartToMilliseconds {

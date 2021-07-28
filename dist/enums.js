@@ -2,13 +2,13 @@
 exports.__esModule = true;
 var DatePart;
 (function (DatePart) {
-    DatePart["s"] = "SECOND";
-    DatePart["m"] = "MINUTE";
-    DatePart["h"] = "HOUR";
-    DatePart["d"] = "DAY";
-    DatePart["w"] = "WEEK";
-    DatePart["M"] = "MONTH";
-    DatePart["y"] = "YEAR";
+    DatePart["s"] = "s";
+    DatePart["m"] = "m";
+    DatePart["h"] = "h";
+    DatePart["d"] = "d";
+    DatePart["w"] = "w";
+    DatePart["M"] = "M";
+    DatePart["y"] = "y";
 })(DatePart = exports.DatePart || (exports.DatePart = {}));
 ;
 var PartToMilliseconds;
