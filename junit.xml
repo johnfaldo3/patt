@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="2.632">
-  <testsuite name="parse" errors="0" failures="0" skipped="0" timestamp="2021-07-28T15:36:04" time="2.509" tests="5">
-    <testcase classname="parse should parse now-1y/y correctly" name="parse should parse now-1y/y correctly" time="0.016">
+<testsuites name="jest tests" tests="5" failures="0" errors="0" time="3.079">
+  <testsuite name="parse" errors="0" failures="0" skipped="0" timestamp="2021-07-28T15:38:09" time="2.902" tests="5">
+    <testcase classname="parse should parse now-1y/y correctly" name="parse should parse now-1y/y correctly" time="0.003">
     </testcase>
-    <testcase classname="parse should parse now/y correctly" name="parse should parse now/y correctly" time="0.002">
+    <testcase classname="parse should parse now/y correctly" name="parse should parse now/y correctly" time="0.003">
     </testcase>
-    <testcase classname="parse should parse now-1d correctly" name="parse should parse now-1d correctly" time="0.004">
+    <testcase classname="parse should parse now-1d correctly" name="parse should parse now-1d correctly" time="0.001">
     </testcase>
-    <testcase classname="parse should parse now+1d correctly" name="parse should parse now+1d correctly" time="0.002">
+    <testcase classname="parse should parse now+1d correctly" name="parse should parse now+1d correctly" time="0.001">
     </testcase>
     <testcase classname="parse should parse now-4d-4h correctly" name="parse should parse now-4d-4h correctly" time="0.002">
     </testcase>
