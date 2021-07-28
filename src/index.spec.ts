@@ -11,7 +11,6 @@ describe('parse', () => {
   it('should parse now-1y/y correctly', () => {
     expect(parse('now-1y/y')).toBe('2019-01-01T00:00:00.000Z');
   });
-
   it('should parse now/y correctly', () => {
     expect(parse('now/y')).toBe('2020-01-01T00:00:00.000Z');
   });
