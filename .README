@@ -1,0 +1,6 @@
+#### Run Tests
+
+To run locally:
+- run an instance of `public-api`
+- `npm run api-mock`
+- `npm run test:e2e` or one of other e2e variants

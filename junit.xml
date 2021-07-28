@@ -1,15 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="5" failures="0" errors="0" time="3.079">
-  <testsuite name="parse" errors="0" failures="0" skipped="0" timestamp="2021-07-28T15:38:09" time="2.902" tests="5">
+<testsuites name="jest tests" tests="22" failures="0" errors="0" time="5.133">
+  <testsuite name="parse" errors="0" failures="0" skipped="0" timestamp="2021-07-28T15:54:45" time="4.214" tests="5">
     <testcase classname="parse should parse now-1y/y correctly" name="parse should parse now-1y/y correctly" time="0.003">
     </testcase>
-    <testcase classname="parse should parse now/y correctly" name="parse should parse now/y correctly" time="0.003">
+    <testcase classname="parse should parse now/y correctly" name="parse should parse now/y correctly" time="0.001">
     </testcase>
-    <testcase classname="parse should parse now-1d correctly" name="parse should parse now-1d correctly" time="0.001">
+    <testcase classname="parse should parse now-1d correctly" name="parse should parse now-1d correctly" time="0">
     </testcase>
     <testcase classname="parse should parse now+1d correctly" name="parse should parse now+1d correctly" time="0.001">
     </testcase>
-    <testcase classname="parse should parse now-4d-4h correctly" name="parse should parse now-4d-4h correctly" time="0.002">
+    <testcase classname="parse should parse now-4d-4h correctly" name="parse should parse now-4d-4h correctly" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="enums" errors="0" failures="0" skipped="0" timestamp="2021-07-28T15:54:45" time="4.559" tests="4">
+    <testcase classname="enums DatePart should have correct number of keys" name="enums DatePart should have correct number of keys" time="0.008">
+    </testcase>
+    <testcase classname="enums DatePart should correct keys" name="enums DatePart should correct keys" time="0.001">
+    </testcase>
+    <testcase classname="enums PartToMilliseconds should have correct number of keys" name="enums PartToMilliseconds should have correct number of keys" time="0">
+    </testcase>
+    <testcase classname="enums PartToMilliseconds should correct keys" name="enums PartToMilliseconds should correct keys" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="roundDate" errors="0" failures="0" skipped="0" timestamp="2021-07-28T15:54:45" time="4.589" tests="13">
+    <testcase classname="roundDate seconds should round down to the nearest second" name="roundDate seconds should round down to the nearest second" time="0.002">
+    </testcase>
+    <testcase classname="roundDate seconds should round up to the nearest second" name="roundDate seconds should round up to the nearest second" time="0">
+    </testcase>
+    <testcase classname="roundDate minutes should round down to the nearest minute" name="roundDate minutes should round down to the nearest minute" time="0.001">
+    </testcase>
+    <testcase classname="roundDate minutes should round up to the nearest minute" name="roundDate minutes should round up to the nearest minute" time="0">
+    </testcase>
+    <testcase classname="roundDate hours should round down to the nearest hour" name="roundDate hours should round down to the nearest hour" time="0">
+    </testcase>
+    <testcase classname="roundDate hours should round up to the nearest minute" name="roundDate hours should round up to the nearest minute" time="0.001">
+    </testcase>
+    <testcase classname="roundDate days should round down to the nearest day" name="roundDate days should round down to the nearest day" time="0">
+    </testcase>
+    <testcase classname="roundDate days should round up to the nearest day" name="roundDate days should round up to the nearest day" time="0">
+    </testcase>
+    <testcase classname="roundDate months should round down to the nearest month" name="roundDate months should round down to the nearest month" time="0.001">
+    </testcase>
+    <testcase classname="roundDate months should round up to the nearest month" name="roundDate months should round up to the nearest month" time="0">
+    </testcase>
+    <testcase classname="roundDate months should round up the year when the nearest month is 01 of the following year" name="roundDate months should round up the year when the nearest month is 01 of the following year" time="0">
+    </testcase>
+    <testcase classname="roundDate years should round down to the nearest year" name="roundDate years should round down to the nearest year" time="0">
+    </testcase>
+    <testcase classname="roundDate years should round up to the nearest year" name="roundDate years should round up to the nearest year" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>

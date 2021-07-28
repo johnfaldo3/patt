@@ -10,7 +10,6 @@ var DatePart;
     DatePart["M"] = "M";
     DatePart["y"] = "y";
 })(DatePart = exports.DatePart || (exports.DatePart = {}));
-;
 var PartToMilliseconds;
 (function (PartToMilliseconds) {
     PartToMilliseconds[PartToMilliseconds["s"] = 1000] = "s";

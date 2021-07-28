@@ -4,7 +4,6 @@ module.exports = {
     es2021: true,
   },
   extends: [
-    'plugin:react/recommended',
     'airbnb',
   ],
   parser: '@typescript-eslint/parser',
@@ -16,9 +15,10 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: [
-    'react',
     '@typescript-eslint',
   ],
   rules: {
-  },
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': ['warn']
+  }
 };

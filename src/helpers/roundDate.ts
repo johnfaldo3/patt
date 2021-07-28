@@ -1,4 +1,4 @@
-import { DatePart, PartToMilliseconds } from "../enums";
+import { DatePart, PartToMilliseconds } from '../enums';
 
 const daysInMonth = (month, year) => new Date(year, month, 0).getUTCDate();
 

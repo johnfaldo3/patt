@@ -6,7 +6,7 @@ export enum DatePart {
   'w' = 'w',
   'M' = 'M',
   'y' = 'y',
-};
+}
 
 export enum PartToMilliseconds {
   s = 1000,

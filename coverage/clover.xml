@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1627487637119" clover="3.2.0">
+  <project timestamp="1627487637119" name="All files">
+    <metrics statements="66" coveredstatements="66" conditionals="23" coveredconditionals="23" methods="9" coveredmethods="9" elements="98" coveredelements="98" complexity="0" loc="66" ncloc="66" packages="3" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+      <file name="index.ts" path="/Users/johnfaldo/patt/src/index.ts">
+        <metrics statements="24" coveredstatements="24" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="17" count="5" type="stmt"/>
+        <line num="19" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+        <line num="32" count="5" type="stmt"/>
+        <line num="33" count="5" type="stmt"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="42" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.enums">
+      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/Users/johnfaldo/patt/src/enums/index.ts">
+        <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="1" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.helpers">
+      <metrics statements="25" coveredstatements="25" conditionals="11" coveredconditionals="11" methods="4" coveredmethods="4"/>
+      <file name="roundDate.ts" path="/Users/johnfaldo/patt/src/helpers/roundDate.ts">
+        <metrics statements="25" coveredstatements="25" conditionals="11" coveredconditionals="11" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="18" type="stmt"/>
+        <line num="19" count="18" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
