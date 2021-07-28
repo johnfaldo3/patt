@@ -70,6 +70,11 @@ describe('roundDate', () => {
       Mockdate.set(mockDate);
       expect(roundDate(new Date(mockDate), DatePart.M).toISOString()).toBe('2020-06-01T00:00:00.000Z');
     });
+    it('should round up the year when the nearest month is 01 of the following year', () => {
+      const mockDate = '2020-12-20T00:00:00.000Z';
+      Mockdate.set(mockDate);
+      expect(roundDate(new Date(mockDate), DatePart.M).toISOString()).toBe('2021-01-01T00:00:00.000Z');
+    });
   });
 
   describe('years', () => {
@@ -81,7 +86,7 @@ describe('roundDate', () => {
     it('should round up to the nearest year', () => {
       const mockDate = '2020-06-01T00:00:00.000Z';
       Mockdate.set(mockDate);
-      expect(roundDate(new Date(mockDate), DatePart.y).toISOString()).toContain('2021-01-01T00:00:00.000Z');
+      expect(roundDate(new Date(mockDate), DatePart.y).toISOString()).toBe('2021-01-01T00:00:00.000Z');
     });
   });
 });
