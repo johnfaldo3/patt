@@ -8,9 +8,9 @@ const roundYear = (date: Date) => {
   const month: number = date.getUTCMonth();
 
   if (month >= 5) {
-    return new Date(`${day}-01-${year + 1}`);
+    return new Date(year + 1, 0, day, 0, 0, 0, 0);
   }
-  return new Date(`${day}-01-${year}`);
+  return new Date(year, 0, day, 0, 0, 0, 0);
 };
 
 const roundDate = (date: Date, part: DatePart): Date => {

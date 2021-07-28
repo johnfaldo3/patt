@@ -7,9 +7,9 @@ var roundYear = function (date) {
     var day = date.getUTCDate();
     var month = date.getUTCMonth();
     if (month >= 5) {
-        return new Date(day + "-01-" + (year + 1));
+        return new Date(year + 1, 0, day, 0, 0, 0, 0);
     }
-    return new Date(day + "-01-" + year);
+    return new Date(year, 0, day, 0, 0, 0, 0);
 };
 var roundDate = function (date, part) {
     var ms = enums_1.PartToMilliseconds[part];
