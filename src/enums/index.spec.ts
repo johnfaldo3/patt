@@ -1,4 +1,4 @@
-import { DatePart, PartToMilliseconds } from './enums';
+import { DatePart, PartToMilliseconds } from '.';
 
 describe('enums', () => {
   describe('DatePart', () => {
